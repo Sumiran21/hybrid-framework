@@ -27,9 +27,7 @@ public class LoginTest extends AutomationWrapper {
 			
 	}
 	
-	
-	
-	
+
 	@Test(dataProvider = "invalidloginData", dataProviderClass = DataUtils.class)
 	public void invalidLoginTest(String username, String password, String expectedError) {
 		
